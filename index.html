@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Evolution Tennis Club Web BP, a premium single-page business presentation for a new tennis club experience in Wujin."
+      content="Evolution Tennis Club Web BP, a premium scrolling brand presentation for a modern urban tennis club in Wujin."
     />
     <title>Evolution Tennis Club Web BP</title>
     <link rel="stylesheet" href="styles.css" />
@@ -39,7 +39,8 @@
 
     <main>
       <section id="hero" class="section hero-section observe">
-        <div class="hero-visual" aria-hidden="true"></div>
+        <div class="hero-visual parallax" data-speed="0.14" aria-hidden="true"></div>
+        <div class="court-lines" aria-hidden="true"></div>
         <div class="hero-content">
           <p class="eyebrow">Wujin Urban Tennis Club</p>
           <h1>Evolution Tennis Club</h1>
@@ -52,86 +53,91 @@
         </a>
       </section>
 
-      <section id="why" class="section content-section observe">
+      <section id="why" class="section content-section manifesto-section observe">
         <div class="section-inner narrow">
           <p class="eyebrow">01 / Positioning</p>
           <h2>Why Evolution?</h2>
-          <div class="large-copy">
-            <p>武进并不缺少网球场地。</p>
-            <p>但始终缺少一个真正围绕长期体验与 Club 氛围建立的城市网球空间。</p>
-            <p>
-              项目希望让更多用户在湖塘核心生活圈内，获得更稳定、更舒适、更具 Club 感的网球体验。
-            </p>
+          <div class="manifesto-copy">
+            <p>Wujin doesn’t lack tennis courts.</p>
+            <p>What it lacks<br />is a real Tennis Club.</p>
+            <p class="cn-line">武进不缺网球场。</p>
+            <p class="cn-line strong">缺的是：真正属于城市生活的 Club。</p>
           </div>
         </div>
       </section>
 
-      <section id="market" class="section content-section soft-band observe">
+      <section id="market" class="section content-section market-section observe">
         <div class="section-inner">
           <div class="section-heading">
             <p class="eyebrow">02 / Market Opportunity</p>
             <h2>Tennis Is Changing.</h2>
+            <p class="heading-cn">城市运动，正在进入夜晚。</p>
           </div>
           <div class="keyword-grid">
-            <article class="feature-card">
+            <article class="feature-card trend-card">
               <span class="card-number">01</span>
               <h3>Night Sports</h3>
+              <strong>19:00-22:00</strong>
+              <p>Peak Time</p>
+              <small>夜间运动正在成为城市习惯</small>
             </article>
-            <article class="feature-card">
+            <article class="feature-card trend-card">
               <span class="card-number">02</span>
               <h3>Urban Lifestyle</h3>
+              <strong>After Work</strong>
+              <p>Community</p>
+              <small>长期社交关系正在形成</small>
             </article>
-            <article class="feature-card">
+            <article class="feature-card trend-card">
               <span class="card-number">03</span>
               <h3>High-frequency Community</h3>
+              <strong>Weekly</strong>
+              <p>Return</p>
+              <small>高频用户比一次性用户更重要</small>
             </article>
           </div>
-          <p class="section-copy">
-            越来越多用户开始关注夜间运动、长期社交关系与更高质量的运动空间。
-          </p>
         </div>
       </section>
 
-      <section id="club" class="section content-section observe">
+      <section id="club" class="section content-section culture-section observe">
         <div class="section-inner">
-          <div class="section-heading">
-            <p class="eyebrow">03 / Club Model</p>
+          <div class="section-heading wide">
+            <p class="eyebrow">03 / Club Culture</p>
             <h2>More Than Courts.</h2>
+            <p class="heading-cn">这里不是订场工具，而是归属感的开始。</p>
           </div>
-          <div class="module-grid four">
-            <article class="module-card">
-              <h3>Weekly Matches</h3>
-              <p>稳定频率的约赛与社群活动，让用户持续回到球场。</p>
+          <div class="module-grid four culture-grid">
+            <article class="module-card culture-card">
+              <h3>Belonging</h3>
+              <p>固定人群，固定节奏，形成真正的 Club 关系。</p>
             </article>
-            <article class="module-card">
-              <h3>Ranking</h3>
-              <p>通过积分和榜单建立清晰的成长反馈。</p>
+            <article class="module-card culture-card lifted">
+              <h3>Rivalries</h3>
+              <p>对手、积分、复盘，让每一次比赛有记忆。</p>
             </article>
-            <article class="module-card">
+            <article class="module-card culture-card">
               <h3>Club Night</h3>
-              <p>夜间运动场景成为城市生活方式的一部分。</p>
+              <p>蓝色灯光下的夜场，是城市生活的一部分。</p>
             </article>
-            <article class="module-card">
-              <h3>Founding Members</h3>
-              <p>以早期会员共建 Club 的长期身份感。</p>
+            <article class="module-card culture-card lifted">
+              <h3>Shared Identity</h3>
+              <p>Founding Members 不是标签，而是共同建立的身份。</p>
             </article>
           </div>
-          <p class="section-copy">
-            Evolution 不仅提供场地，更希望建立一个持续活跃的城市网球 Club。
-          </p>
         </div>
       </section>
 
-      <section id="venue" class="section content-section image-band observe">
+      <section id="venue" class="section content-section image-band venue-section observe">
         <div class="section-inner split-layout">
           <div>
             <p class="eyebrow">04 / Venue Experience</p>
             <h2>Designed for Everyday Tennis.</h2>
             <p class="section-copy">
-              项目规划两片可伸缩顶棚场地与四片室外标准硬地场地，并配套前台、水吧、二层休息区、更衣淋浴空间。
+              Blue-lit courts. A quiet lounge. A daily rhythm for serious tennis and urban recovery.
             </p>
+            <p class="micro-cn">两片可伸缩顶棚场地，四片室外硬地，以及真正可停留的 Club 空间。</p>
           </div>
-          <div class="stats-grid">
+          <div class="stats-grid venue-stats">
             <article class="stat-card">
               <strong>2</strong>
               <span>Covered Courts</span>
@@ -140,7 +146,7 @@
               <strong>4</strong>
               <span>Outdoor Courts</span>
             </article>
-            <article class="stat-card">
+            <article class="stat-card lounge">
               <strong>Club</strong>
               <span>Lounge</span>
             </article>
@@ -152,190 +158,200 @@
         </div>
       </section>
 
-      <section id="membership" class="section content-section observe">
+      <section id="membership" class="section content-section membership-section observe">
         <div class="section-inner">
-          <div class="section-heading">
+          <div class="section-heading centered">
             <p class="eyebrow">05 / Membership</p>
             <h2>Membership Matters.</h2>
+            <p class="heading-cn">真正重要的，不是折扣。是长期身份感。</p>
           </div>
           <div class="membership-grid">
             <article class="membership-card">
               <p class="tier">Public Member</p>
+              <p class="member-intro">Open Access</p>
               <ul>
                 <li>提前1天订场</li>
                 <li>基础订场权限</li>
-                <li>适合普通用户</li>
+                <li>适合日常体验用户</li>
               </ul>
             </article>
             <article class="membership-card featured">
               <p class="tier">Gold Member</p>
+              <p class="member-intro">Club Benefits</p>
               <p class="price">年费499元</p>
               <ul>
+                <li>Priority Reservation</li>
                 <li>订场95折</li>
                 <li>提前4天订场</li>
                 <li>周末赛事报名资格</li>
               </ul>
             </article>
-            <article class="membership-card dark">
+            <article class="membership-card dark founder-card">
               <p class="tier">Diamond Member</p>
+              <p class="member-intro">Founding Identity</p>
               <p class="price">单次充值30000元自动获得</p>
               <ul>
-                <li>10年有效</li>
-                <li>订场9折</li>
-                <li>私教95折</li>
+                <li>Founding Member 身份</li>
+                <li>10年长期状态</li>
                 <li>提前6天订场</li>
-                <li>Founding Member身份</li>
+                <li>订场9折 / 私教95折</li>
+                <li>Private Access</li>
               </ul>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="club-os" class="section content-section soft-band observe">
-        <div class="section-inner">
+      <section id="club-os" class="section content-section os-section observe">
+        <div class="section-inner os-layout">
           <div class="section-heading">
-            <p class="eyebrow">06 / Digital Operations</p>
+            <p class="eyebrow">06 / Evolution OS</p>
             <h2>Built for Long-term Operations.</h2>
+            <p class="heading-cn">一个 Club 的长期运营系统。</p>
           </div>
-          <div class="module-grid four">
+          <div class="module-grid four os-grid">
             <article class="system-card">
+              <span class="system-dot"></span>
               <h3>Booking System</h3>
-              <p>让订场、取消、峰谷时段管理更稳定。</p>
+              <p>Peak-time control, cancellation logic and court visibility.</p>
             </article>
             <article class="system-card">
+              <span class="system-dot"></span>
               <h3>Wallet System</h3>
-              <p>承接储值、消费、余额与会员现金流。</p>
+              <p>Stored value, balance, usage and member cashflow.</p>
             </article>
             <article class="system-card">
+              <span class="system-dot"></span>
               <h3>Membership System</h3>
-              <p>清晰管理等级权益与长期用户关系。</p>
+              <p>Status, benefits and long-term relationship management.</p>
             </article>
             <article class="system-card">
+              <span class="system-dot"></span>
               <h3>Ranking System</h3>
-              <p>把赛事结果转化为持续参与动力。</p>
+              <p>Match results become motivation to return.</p>
             </article>
           </div>
-          <p class="section-copy">
-            小程序不仅是订场工具，而是围绕长期 Club 运营建立的数字化系统。
-          </p>
         </div>
       </section>
 
-      <section id="founding" class="section content-section observe">
+      <section id="founding" class="section content-section founding-section observe">
         <div class="section-inner">
-          <div class="section-heading">
+          <div class="section-heading wide">
             <p class="eyebrow">07 / Founding Phase</p>
             <h2>Build the Club Before Opening.</h2>
+            <p class="heading-cn">真正的 Club，在开业前就已经开始形成。</p>
           </div>
           <div class="timeline">
             <article class="timeline-item">
               <span>Phase 01</span>
-              <h3>建设期</h3>
+              <h3>Construction</h3>
               <p>社交媒体预热、施工进度、会员征集</p>
             </article>
             <article class="timeline-item">
               <span>Phase 02</span>
-              <h3>试营业</h3>
+              <h3>Soft Opening</h3>
               <p>一周低价体验、收集反馈</p>
             </article>
             <article class="timeline-item">
               <span>Phase 03</span>
-              <h3>开业赛事</h3>
+              <h3>Opening Tournament</h3>
               <p>32签单打赛、32签双打赛</p>
             </article>
             <article class="timeline-item">
               <span>Phase 04</span>
-              <h3>正式运营</h3>
+              <h3>Live Operations</h3>
               <p>周赛、排行榜、约球功能</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="activity" class="section content-section image-band observe">
+      <section id="activity" class="section content-section image-band activity-section observe">
         <div class="section-inner split-layout">
           <div>
             <p class="eyebrow">08 / Club Activity</p>
             <h2>Always Active.</h2>
             <p class="section-copy">
-              高频活动与长期用户关系，将成为 Club 的核心组成部分。
+              A living calendar of matches, rivalries, nights and moments.
             </p>
+            <p class="micro-cn">让用户每周都有理由回到球场。</p>
           </div>
           <div class="activity-list">
-            <span>Midweek Match</span>
-            <span>Weekend Match</span>
-            <span>Grand Slam Viewing</span>
-            <span>Women’s Tennis Day</span>
-            <span>Coach Challenge</span>
-            <span>Evolution Finals</span>
+            <span><em>Wed</em> Midweek Match</span>
+            <span><em>Sat</em> Weekend Match</span>
+            <span><em>Live</em> Grand Slam Viewing</span>
+            <span><em>Her</em> Women’s Tennis Day</span>
+            <span><em>Pro</em> Coach Challenge</span>
+            <span><em>Final</em> Evolution Finals</span>
           </div>
         </div>
       </section>
 
-      <section id="financial" class="section content-section observe">
+      <section id="financial" class="section content-section financial-section observe">
         <div class="section-inner">
           <div class="section-heading">
             <p class="eyebrow">09 / Financial Model</p>
             <h2>Sustainable by Design.</h2>
+            <p class="heading-cn">低租金、轻人工、高峰利用率、会员现金流。</p>
           </div>
           <div class="dashboard-grid">
             <article class="dashboard-card">
-              <span>初始投入</span>
+              <span>Initial Investment</span>
               <strong>约151万元</strong>
             </article>
             <article class="dashboard-card">
-              <span>年固定成本</span>
+              <span>Annual Fixed Cost</span>
               <strong>约70万元</strong>
             </article>
             <article class="dashboard-card">
-              <span>稳定期年收入</span>
+              <span>Stable Annual Revenue</span>
               <strong>约145万元</strong>
             </article>
             <article class="dashboard-card highlight">
-              <span>稳定期年净利润</span>
+              <span>Stable Net Profit</span>
               <strong>约65-75万元</strong>
             </article>
           </div>
-          <p class="section-copy">
-            当前模型强调低租金、轻人工、高峰时段利用率与会员驱动现金流。
-          </p>
         </div>
       </section>
 
-      <section id="risk" class="section content-section soft-band observe">
+      <section id="risk" class="section content-section risk-section observe">
         <div class="section-inner">
           <div class="section-heading">
             <p class="eyebrow">10 / Risk Control</p>
             <h2>Built for Long-term Stability.</h2>
+            <p class="heading-cn">专业，不是保守。是可以长期运转。</p>
           </div>
-          <div class="module-grid four">
+          <div class="module-grid four risk-grid">
             <article class="risk-card">
               <h3>Wallet Logic</h3>
+              <p>储值边界清晰</p>
             </article>
             <article class="risk-card">
               <h3>Safety Insurance</h3>
+              <p>运动安全前置</p>
             </article>
             <article class="risk-card">
               <h3>Refund Rules</h3>
+              <p>规则透明稳定</p>
             </article>
             <article class="risk-card">
               <h3>User Management</h3>
+              <p>维护 Club 秩序</p>
             </article>
           </div>
-          <p class="section-copy">
-            项目将围绕储值安全、运动安全、用户秩序与现金流稳定建立长期风险控制体系。
-          </p>
         </div>
       </section>
 
-      <section id="partnership" class="section content-section observe">
+      <section id="partnership" class="section content-section partnership-section observe">
         <div class="section-inner split-layout">
           <div>
             <p class="eyebrow">11 / Partnership</p>
             <h2>Partnership Structure.</h2>
             <p class="section-copy">
-              控制权与股权比例一致，项目优先保持长期运营稳定性。
+              Control and ownership stay aligned. The priority is long-term operating stability.
             </p>
+            <p class="micro-cn">控制权与股权比例一致，项目优先保持长期运营稳定性。</p>
           </div>
           <div class="equity-card">
             <div class="equity-row">
@@ -354,11 +370,12 @@
         </div>
       </section>
 
-      <section id="future" class="section content-section observe">
+      <section id="future" class="section content-section future-section observe">
         <div class="section-inner">
           <div class="section-heading">
             <p class="eyebrow">12 / Future Vision</p>
             <h2>Beyond One Club.</h2>
+            <p class="heading-cn">一家场馆只是开始。城市网球网络，才是未来。</p>
           </div>
           <div class="future-grid">
             <article>City Club Network</article>
@@ -366,14 +383,12 @@
             <article>Club League</article>
             <article>Second Venue</article>
           </div>
-          <p class="section-copy">
-            Evolution 的目标，并不仅仅是一家网球场馆，而是一个持续运营的城市运动品牌。
-          </p>
         </div>
       </section>
 
       <section id="ending" class="section ending-section observe">
-        <div>
+        <div class="ending-glow" aria-hidden="true"></div>
+        <div class="ending-content">
           <p>Evolution Never Stops.</p>
           <span>进 · 无止境</span>
         </div>

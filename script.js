@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var navLinks = Array.prototype.slice.call(document.querySelectorAll(".nav-link"));
   var sections = Array.prototype.slice.call(document.querySelectorAll("main .section[id]"));
   var observed = Array.prototype.slice.call(document.querySelectorAll(".observe"));
+  var parallaxItems = Array.prototype.slice.call(document.querySelectorAll(".parallax"));
+  var ticking = false;
 
   function setActiveNav(sectionId) {
     navLinks.forEach(function (link) {
@@ -60,4 +62,28 @@ document.addEventListener("DOMContentLoaded", function () {
   sections.forEach(function (section) {
     navObserver.observe(section);
   });
+
+  function updateParallax() {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    parallaxItems.forEach(function (item) {
+      var speed = Number(item.getAttribute("data-speed")) || 0.1;
+      item.style.transform = "translate3d(0, " + scrollTop * speed + "px, 0)";
+    });
+
+    ticking = false;
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!ticking) {
+        window.requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
+    },
+    { passive: true }
+  );
+
+  updateParallax();
 });
