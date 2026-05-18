@@ -1,0 +1,23 @@
+{
+  "name": "tennisclub",
+  "version": "1.0.0",
+  "description": "tennisclub page",
+  "main": "script.js",
+  "scripts": {
+    "check:overflow": "node scripts/check-overflow.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstatexboom/tennisclub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cstatexboom/tennisclub/issues"
+  },
+  "homepage": "https://github.com/cstatexboom/tennisclub#readme",
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
