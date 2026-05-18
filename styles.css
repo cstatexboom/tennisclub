@@ -743,10 +743,23 @@ li {
   grid-template-columns: 0.72fr 1.28fr;
   align-items: center;
   gap: 64px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-.os-grid {
-  grid-template-columns: repeat(2, 1fr);
+#club-os .os-layout > * {
+  min-width: 0;
+}
+
+#club-os .os-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#club-os .system-card {
+  width: 100%;
+  min-width: 0;
 }
 
 .system-card {
